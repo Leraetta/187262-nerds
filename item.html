@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Нёрдс</title>
+  </head>
+  <body>
+  		<!-- шапка сайта -->
+    <div class="header-container">
+      <header class="main-header">
+        <div class="logo">НЁРДС</div>
+        <div class="user-block">
+          <ul>
+            <li><a href="#">студия</a></li>
+          <li><a href="#">клиенты</a></li>
+          <li><a href="#">магазин</a></li>
+          <li><a href="#">контакты</a></li>
+          </ul>
+        <div class="basket"><a href="#">корзина</a></div>
+        </div>
+      </header>
+    </div>
+  	
+  		<!-- основное содержание -->
+	<div class="main-container">
+    <h1>магазин готовых шаблонов</h1>
+    <form>
+        <div class="price">
+          <label for="price">стоимость</label>
+            <input type="range" id="price" name="price" min="0" max="15000" step="1">
+          <label for="ot">от</label>
+            <input type="number" min="0" max="15000" id="ot" value="0">
+          <label for="do">до</label>
+            <input type="number" id="do" name="do" min="0" max="15000" step="1" value="15000">
+        </div>
+        <div class="setka">
+          <ul>
+            <li>
+              <label>
+                  <input type="radio" name="Адаптивная" checked>Адаптивная
+                </label>
+            </li>
+            <li>
+              <label>
+                  <input type="radio" name="Фиксированная">Фиксированная
+                </label>
+            </li>
+            <li>
+              <label>
+                  <input type="radio" name="Резиновая">Резиновая
+                </label>
+            </li>
+          </ul>
+        </div>
+        <div class="option">
+          <ul>
+            <li>
+              <label>
+              <input type="checkbox" name="слайдер" checked>слайдер
+              </label>
+            </li>
+            <li>
+              <label>
+              <input type="checkbox" name="блок преимуществ">блок преимуществ
+              </label>
+            </li>
+            <li>
+              <label>
+              <input type="checkbox" name="новости" checked>новости
+              </label>
+            </li>
+            <li>
+              <label>
+              <input type="checkbox" name="галерея">галерея
+              </label>
+            </li>
+            <li>
+              <label>
+              <input type="checkbox" name="корзина">корзина
+              </label>
+            </li>
+          </ul>
+      </div>
+        <button type="submit">показать</button>
+    </form>
+    <div class="sorting">
+      <div>Сортировка:</div>
+      <div>по цене</div>
+      <div>по типу</div>
+      <div>по названию</div>
+      <div><img src="img/.png" alt="вверх" title="вверх" width="5" height="5"></div>
+      <div><img src="img/.png" alt="вниз" title="вниз" width="5" height="5"></div>
+    </div>
+    <div class="portfolio">
+      <article><img src="img/.png" alt="sedona" title="sedona" width="150" height="100"></article>
+      <article><img src="img/.png" alt="borodinski" title="borodinski" width="150" height="100"></article>
+      <article><img src="img/.png" alt="learning" title="learnind" width="150" height="100"></article>
+      <article><img src="img/.png" alt="pink" title="pink" width="150" height="100"></article>
+      <article><img src="img/.png" alt="mishka" title="mishka" width="150" height="100"></article>
+      <article><img src="img/.png" alt="kvas" title="kvas" width="150" height="100"></article>
+    </div>
+    <div class="scroll">
+        <a href="#">назад</a>
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">следующая</a>
+      </div>
+  </div>
+		<!-- подвал сайта -->
+	<div class="footer-container">
+    <footer class="main-footer">
+      <img src="img/.png" alt="карта" width="150" height="100" title="карта">
+      <aside class="pishitenam">
+        <h3>NЁSRD DESIGN STUDIO</h3>
+        <p>191186 Санкт-Петербург, ул.Большая Конюшенная, д. 19/8</p>
+        <div class="tel">
+        <a href="tel:+78122757575">+7(812)275-75-75</a>
+       </div>
+      </aside>
+      <div class="cursor"><img src="img/.png" alt="курсор" width="150" height="100" title="курсор"></div>
+      <div class="footer-social">
+          <ul>
+            <li>
+            <a href="#" class="social-vk">
+            <img src="img/.png" alt="вконтакте" width="50" height="50" title="вконтакте">
+            </a>
+          </li>
+          <li>
+            <a href="#" class="social-fb">
+            <img src="img/.png" alt="фейсбук" width="50" height="50" title="фейсбук">
+            </a>
+          </li>
+          <li>
+            <a href="#" class="social-inst">
+            <img src="img/.png" alt="инстаграм" width="50" height="50" title="инстаграм">
+            </a>
+          </li>
+        </ul>
+        <div class="sale">
+          <h2>Давайте дружить, это выгодно!</h2>
+          <p>Скидка 10% для друзей из социальных сетей</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+<!--<p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTMLи CSS</a>» </p> -->
+</body>
+</html>
+
