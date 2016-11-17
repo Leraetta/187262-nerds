@@ -62,3 +62,45 @@
   font-family: 'Roboto-ThinItalic';
   src: url('../fonts/Roboto-master/Roboto-ThinItalic.ttf') format('truetype');
 }
+a {
+	text-decoration: none;
+}
+.header-container {
+  display: inline-block;
+  width: 1440px;
+  height: auto;
+  margin-top: 50px;
+  vertical-align: top;
+}
+.logo {
+  float: left;
+  margin-left: 140px;
+  /*margin-top: 35px; */
+}
+.user-block li {
+  float: left;
+  list-style-type: none;
+  padding-left: 30px;
+  font-family: Roboto-Thin;
+  font-size: 18px;
+}
+.user-block ul {
+  float: left;
+  list-style-type: none;
+  margin-left: 455px;
+  text-align: center;
+  /*margin-top: 35px; */
+}
+.basket img {
+  float: left;
+  padding-right: 20px;
+}
+.basket a {
+  float: right;
+  margin-right: 150px;
+  font-family: Roboto-Thin;
+  font-size: 18px;
+  text-align: right;
+  /*margin-top: -30px; */
+}
+
