@@ -64,13 +64,15 @@
 }
 a {
 	text-decoration: none;
+      /* хедер */
 }
 .header-container {
   display: inline-block;
-  width: 1440px;
+  width: 100%;
   height: auto;
   margin-top: 50px;
   vertical-align: top;
+  text-align: center;
 }
 .logo {
   float: left;
@@ -101,6 +103,39 @@ a {
   font-family: Roboto-Thin;
   font-size: 18px;
   text-align: right;
-  /*margin-top: -30px; */
+  margin-top: -20px; 
+}
+  /*основая часть */
+.main-container {
+ display: inline-block;
+ width: 1400px;
+ height: auto;
+}
+.lend {
+  display: inline-block;
+  width: 1300px;
+  height: auto;
+  padding: 0px;
+}
+.lend-left {
+  display: inline-block;
+  width: 500px;
+  height: auto;
+  margin-left: 0px;
+
+}
+.lend-left h1 {
+  font-family: Roboto-Regular;
+  font-size: 50px;
+}
+.lend-right {
+  float: right;
+}
+
+    /* футер */
+.footer-container {
+  display: inline-block;
+  width: 1400px;
+  height: auto;
 }
 
