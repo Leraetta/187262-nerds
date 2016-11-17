@@ -7,10 +7,10 @@
         <title>HTML Academy: Нёрдс</title>
   </head>
   <body>
-  		<!-- шапка сайта -->
+  		  <!-- шапка сайта -->
     <div class="header-container">
       <header class="main-header">
-        <div class="logo">НЁРДС</div>
+        <div class="logo"><img src="img/nerds-logo.png" alt="nerds-logo" title="nerds-logo" width="160" height="65"></div>
         <div class="user-block">
           <ul>
             <li><a href="#">студия</a></li>
@@ -18,18 +18,22 @@
           <li><a href="#">магазин</a></li>
           <li><a href="#">контакты</a></li>
           </ul>
-        <div class="basket"><a href="#">корзина</a></div>
+        <div class="basket">
+          <a href="#"><img src="img/cart-icon.png" alt="Kорзина" width="15" height="15" title="Kорзина">корзина</a>
+        </div>
         </div>
       </header>
     </div>
-  	
-  		<!-- основное содержание -->
+  	   <!-- основное содержание -->
 	<div class="main-container">
     <h1>магазин готовых шаблонов</h1>
     <form>
         <div class="price">
           <label for="price">стоимость</label>
             <input type="range" id="price" name="price" min="0" max="15000" step="1">
+            <img src="img/slider-fill.png" alt="slider" title="slider" width="152" height="2">
+            <img src="img/slider-roung.png" alt="slider-roung" title="slider-roung" width="20" height="23">
+            <img src="img/slider-roung.png" alt="slider-roung" title="slider-roung" width="20" height="23">
           <label for="ot">от</label>
             <input type="number" min="0" max="15000" id="ot" value="0">
           <label for="do">до</label>
@@ -39,16 +43,19 @@
           <ul>
             <li>
               <label>
+                  <img src="img/radio-on.png" alt="radio-on" title="radio-on" width="25" height="25">
                   <input type="radio" name="Адаптивная" checked>Адаптивная
                 </label>
             </li>
             <li>
               <label>
+                  <img src="img/radio-off.png" alt="radio-off" title="radio-off" width="25" height="25">
                   <input type="radio" name="Фиксированная">Фиксированная
                 </label>
             </li>
             <li>
               <label>
+                  <img src="img/radio-off.png" alt="radio-off" title="radio-off" width="25" height="25">
                   <input type="radio" name="Резиновая">Резиновая
                 </label>
             </li>
@@ -58,26 +65,31 @@
           <ul>
             <li>
               <label>
+              <img src="img/checkbox-on.png" alt="radio-off" title="radio-off" width="27" height="23">
               <input type="checkbox" name="слайдер" checked>слайдер
               </label>
             </li>
             <li>
               <label>
+              <img src="img/checkbox-off.png" alt="radio-off" title="radio-off" width="27" height="23">
               <input type="checkbox" name="блок преимуществ">блок преимуществ
               </label>
             </li>
             <li>
               <label>
+              <img src="img/checkbox-on.png" alt="radio-off" title="radio-off" width="27" height="23">
               <input type="checkbox" name="новости" checked>новости
               </label>
             </li>
             <li>
               <label>
+              <img src="img/checkbox-off.png" alt="radio-off" title="radio-off" width="27" height="23">
               <input type="checkbox" name="галерея">галерея
               </label>
             </li>
             <li>
               <label>
+              <img src="img/checkbox-off.png" alt="radio-off" title="radio-off" width="27" height="23">
               <input type="checkbox" name="корзина">корзина
               </label>
             </li>
@@ -90,16 +102,34 @@
       <div>по цене</div>
       <div>по типу</div>
       <div>по названию</div>
-      <div><img src="img/.png" alt="вверх" title="вверх" width="5" height="5"></div>
-      <div><img src="img/.png" alt="вниз" title="вниз" width="5" height="5"></div>
+      <div><img src="img/soft-down.png" alt="вверх" title="вверх" width="9" height="9"></div>
+      <div><img src="img/soft-up.png" alt="вниз" title="вниз" width="9" height="9"></div>
     </div>
     <div class="portfolio">
-      <article><img src="img/.png" alt="sedona" title="sedona" width="150" height="100"></article>
-      <article><img src="img/.png" alt="borodinski" title="borodinski" width="150" height="100"></article>
-      <article><img src="img/.png" alt="learning" title="learnind" width="150" height="100"></article>
-      <article><img src="img/.png" alt="pink" title="pink" width="150" height="100"></article>
-      <article><img src="img/.png" alt="mishka" title="mishka" width="150" height="100"></article>
-      <article><img src="img/.png" alt="kvas" title="kvas" width="150" height="100"></article>
+      <article>
+          <img src="img/browser.png" alt="browser" title="browser" width="360" height="40">
+          <img src="img/img-sedona.png" alt="sedona" title="sedona" width="360" height="576">
+      </article>
+      <article>
+          <img src="img/browser.png" alt="browser" title="browser" width="360" height="40">
+          <img src="img/img-barbershop.png" alt="borodinski" title="borodinski" width="360" height="576">
+      </article>
+      <article>
+          <img src="img/browser.png" alt="browser" title="browser" width="360" height="40">
+          <img src="img/img-aplus.png" alt="learning" title="learnind" width="360" height="576">
+      </article>
+      <article>
+          <img src="img/browser.png" alt="browser" title="browser" width="360" height="40">
+          <img src="img/img-pink.png" alt="pink" title="pink" width="360" height="576">
+      </article>
+      <article>
+          <img src="img/browser.png" alt="browser" title="browser" width="360" height="40">
+          <img src="img/img-mishka.png" alt="mishka" title="mishka" width="360" height="576">
+      </article>
+      <article>
+          <img src="img/browser.png" alt="browser" title="browser" width="360" height="40">
+          <img src="img/img-kvast.png" alt="kvas" title="kvas" width="360" height="576">
+      </article>
     </div>
     <div class="scroll">
         <a href="#">назад</a>
@@ -109,10 +139,10 @@
         <a href="#">следующая</a>
       </div>
   </div>
-		<!-- подвал сайта -->
+		  <!-- подвал сайта -->
 	<div class="footer-container">
     <footer class="main-footer">
-      <img src="img/.png" alt="карта" width="150" height="100" title="карта">
+      <img src="img/map.png" alt="карта" title="карта" width="1725" height="808">
       <aside class="pishitenam">
         <h3>NЁSRD DESIGN STUDIO</h3>
         <p>191186 Санкт-Петербург, ул.Большая Конюшенная, д. 19/8</p>
@@ -120,22 +150,22 @@
         <a href="tel:+78122757575">+7(812)275-75-75</a>
        </div>
       </aside>
-      <div class="cursor"><img src="img/.png" alt="курсор" width="150" height="100" title="курсор"></div>
+      <div class="cursor"><img src="img/map-marker.png" alt="курсор" title="курсор" width="182" height="190"></div>
       <div class="footer-social">
           <ul>
             <li>
             <a href="#" class="social-vk">
-            <img src="img/.png" alt="вконтакте" width="50" height="50" title="вконтакте">
+            <img src="img/vk-icon.png" alt="вконтакте" title="вконтакте" width="26" height="15">
             </a>
           </li>
           <li>
             <a href="#" class="social-fb">
-            <img src="img/.png" alt="фейсбук" width="50" height="50" title="фейсбук">
+            <img src="img/fb-icon.png" alt="фейсбук" title="фейсбук" width="26" height="15">
             </a>
           </li>
           <li>
             <a href="#" class="social-inst">
-            <img src="img/.png" alt="инстаграм" width="50" height="50" title="инстаграм">
+            <img src="img/insta-icon.png" alt="инстаграм" title="инстаграм" width="26" height="15">
             </a>
           </li>
         </ul>
@@ -149,4 +179,5 @@
 <!--<p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTMLи CSS</a>» </p> -->
 </body>
 </html>
+
 
