@@ -88,7 +88,6 @@ a {
 }
 .user-block ul {
   float: left;
-  list-style-type: none;
   margin-left: 455px;
   text-align: center;
   /*margin-top: 35px; */
@@ -127,9 +126,67 @@ a {
 .lend-left h1 {
   font-family: Roboto-Regular;
   font-size: 50px;
+
 }
 .lend-right {
   float: right;
+}
+.features-about li {
+  list-style-type: none;
+}
+.features-web {
+  display: inline-block;
+  margin-left: 140px;
+  margin-top: 70px;
+  text-align: left;
+}
+.web {
+  float: left;
+  padding-right: 100px;
+}
+.play {
+  float: left;
+  padding-right: 100px;
+}
+.present {
+  float: right;
+}
+.features-about {
+  display: inline-block;
+  margin-left: 140px;
+  height: auto;
+  margin-top: 200px;
+}
+.about-left {
+  display: inline-block;
+  widht: 650px;
+  margin-right: 130px;
+
+}
+.about-right {
+  float: right;
+}
+.logotipy {
+  display: inline-block;
+  margin-left: 175px;
+  margin-top: 210px;
+  padding-right: 100px;
+}
+.logo-1 {
+  float: left;
+  margin-right: 100px;
+}
+.logo-2 {
+  float: left;
+  margin-right: 100px;
+}
+.logo-3 {
+  float: left;
+  margin-right: 100px;
+}
+.logo-4 {
+  float: right;
+  
 }
 
     /* футер */
@@ -137,5 +194,94 @@ a {
   display: inline-block;
   width: 1400px;
   height: auto;
+  margin-top: 100px;
+  
 }
+.pishitenam {
+  float: left;
+  width: 320;
+  height: auto;
+  margin-left: 150px; 
+}
+.cursor {
+  float: right;
+  margin-right: 400px;
+}
+.footer-social {
+  display: inline-block;
+}
+.footer-social li {
+  list-style-type: none;
+}
+.sale {
+  display: inline-block;
+  margin-left: 30;
+}
+ /* страница каталога */
+ .item-container h1 {
+  text-align: center;
+  margin-top: 100px;
+ }
+.price {
+  display: inline-block;
+  margin-top: 200px;
+  margin-left: 0px;
+  width: 400px;
+  height: auto;
+}
+.price-st {
+  display: inline-block;
+  margin-top: 100px;
+}
+.setka li {
+  list-style-type: none;
+}
+.option li {
+  list-style-type: none;
+}
+.sorting {
+  
 
+}
+.portfolio {
+  display: inline-block;
+  margin-left: 400px;
+  margin-right: 140px;
+  margin-top: -500px;
+  padding-bottom: 40px;
+  width: 1000px;
+} 
+.sedona {
+  float: left;
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+.pink {
+  float: right;
+  margin-right: 100px;
+  margin-bottom: 20px;
+}
+.barbershop {
+  float: left;
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+.mishka {
+  float: right;
+  margin-right: 100px;
+  margin-bottom: 20px;
+}
+.aplus {
+  float: left;
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+.kvas {
+  float: right;
+  margin-right: 100px;
+  margin-bottom: 20px;
+}
+.scroll {
+  display: inline-block;
+  margin-left: 500px;
+}

@@ -25,11 +25,13 @@
       </header>
     </div>
   	   <!-- основное содержание -->
-	<div class="main-container">
+	<div class="item-container">
     <h1>магазин готовых шаблонов</h1>
-    <form>
+    <div class="left-column">
+      <form>
+        <div class="left-column">
         <div class="price">
-          <label for="price">стоимость</label>
+          <div class="price-name"><label for="price">стоимость</label></div>
             <input type="range" id="price" name="price" min="0" max="15000" step="1">
             <img src="img/slider-fill.png" alt="slider" title="slider" width="152" height="2">
             <img src="img/slider-roung.png" alt="slider-roung" title="slider-roung" width="20" height="23">
@@ -40,6 +42,7 @@
             <input type="number" id="do" name="do" min="0" max="15000" step="1" value="15000">
         </div>
         <div class="setka">
+          <div class="setka-name"><label for="setka">сетка:</label></div>
           <ul>
             <li>
               <label>
@@ -62,6 +65,7 @@
           </ul>
         </div>
         <div class="option">
+        <div class="option-name"><label for="option">особенности:</label></div>
           <ul>
             <li>
               <label>
@@ -97,6 +101,7 @@
       </div>
         <button type="submit">показать</button>
     </form>
+  </div>
     <div class="sorting">
       <div>Сортировка:</div>
       <div>по цене</div>
@@ -106,33 +111,32 @@
       <div><img src="img/soft-up.png" alt="вниз" title="вниз" width="9" height="9"></div>
     </div>
     <div class="portfolio">
-      <article>
-          <img src="img/browser.png" alt="browser" title="browser" width="360" height="40">
+      <article class="sedona">
+          <!-- <div class="bro-sedona"><img src="img/browser.png" alt="browser" title="browser" width="360" height="40"></div> -->
           <img src="img/img-sedona.png" alt="sedona" title="sedona" width="360" height="576">
       </article>
-      <article>
-          <img src="img/browser.png" alt="browser" title="browser" width="360" height="40">
-          <img src="img/img-barbershop.png" alt="borodinski" title="borodinski" width="360" height="576">
-      </article>
-      <article>
-          <img src="img/browser.png" alt="browser" title="browser" width="360" height="40">
-          <img src="img/img-aplus.png" alt="learning" title="learnind" width="360" height="576">
-      </article>
-      <article>
-          <img src="img/browser.png" alt="browser" title="browser" width="360" height="40">
+      <article class="pink">
+          <!-- <div class="bro-pink"><img src="img/browser.png" alt="browser" title="browser" width="360" height="40"></div> -->
           <img src="img/img-pink.png" alt="pink" title="pink" width="360" height="576">
       </article>
-      <article>
-          <img src="img/browser.png" alt="browser" title="browser" width="360" height="40">
+      <article class="barbershop">
+          <!-- <div class="bro-barber"><img src="img/browser.png" alt="browser" title="browser" width="360" height="40"></div> -->
+          <img src="img/img-barbershop.png" alt="borodinski" title="borodinski" width="360" height="576">
+      </article>
+      <article class="mishka">
+          <!-- <div class="bro-mishka"><img src="img/browser.png" alt="browser" title="browser" width="360" height="40"></div> -->
           <img src="img/img-mishka.png" alt="mishka" title="mishka" width="360" height="576">
       </article>
-      <article>
-          <img src="img/browser.png" alt="browser" title="browser" width="360" height="40">
+      <article class="aplus">
+          <!-- <div class="bro-aplus"><img src="img/browser.png" alt="browser" title="browser" width="360" height="40"></div> -->
+          <img src="img/img-aplus.png" alt="aplus" title="aplus" width="360" height="576">
+      </article>
+      <article class="kvas">
+          <!-- <div class="bro-kvas"><img src="img/browser.png" alt="browser" title="browser" width="360" height="40"></div> -->
           <img src="img/img-kvast.png" alt="kvas" title="kvas" width="360" height="576">
       </article>
     </div>
     <div class="scroll">
-        <a href="#">назад</a>
         <a href="#">1</a>
         <a href="#">2</a>
         <a href="#">3</a>
