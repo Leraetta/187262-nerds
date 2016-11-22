@@ -82,7 +82,7 @@ a {
   margin-top: -40px;
 }
 .user-block li a {
-  font-family: Roboto-Medium;
+  font-family: 'Roboto-Medium','Arial', sans-serif;
   font-size: 16px;
   text-transform: uppercase;
   color: #000000;
@@ -92,7 +92,7 @@ a {
   padding-right: 20px;
 }
 .basket a {
-  font-family: Roboto-Medium;
+  font-family: 'Roboto-Medium','Arial', sans-serif;
   font-size: 16px;
   text-transform: uppercase;
   color: #000000;
@@ -222,12 +222,12 @@ a {
   margin-right: 10px;
 }
 .lend-left h1 {
-  font-family: Roboto-Medium;
+  font-family: 'Roboto-Medium','Arial', sans-serif;
   font-size: 55px;
   color: #000000;
 }
 .lend-left p {
-  font-family: Roboto-Regular;
+  font-family: 'Roboto-Regular','Arial', sans-serif;
   font-size: 16px;
   color: #283136;
 }
@@ -307,13 +307,13 @@ a {
   text-align: left;
 }
 .features-web h3 {
-  font-family: Roboto-Bold;
+  font-family: 'Roboto-Bold','Arial', sans-serif;
   font-size: 24px;
   color: #000000;
   text-transform: uppercase;
 }
 .features-web p {
-  font-family: Roboto-Regular;
+  font-family: 'Roboto-Regular','Arial', sans-serif;
   font-size: 16px;
   color: #283136;
 }
@@ -338,22 +338,22 @@ a {
   margin-top: 200px;
 }
 .about-left h2 {
-  font-family: Roboto-Medium;
+  font-family: 'Roboto-Medium','Arial', sans-serif;
   font-size: 45px;
   color: #000000;
 }
 .about-left p {
-  font-family: Roboto-Regular;
+  font-family: 'Roboto-Regular','Arial', sans-serif;
   font-size: 16px;
   color: #283136;
 }
 .about-left li {
-  font-family: Roboto-Regular;
+  font-family: 'Roboto-Regular','Arial', sans-serif;
   font-size: 16px;
   color: #283136;
 }
 .name-ul {
-  font-family: Roboto-Bold;
+  font-family: 'Roboto-Bold','Arial', sans-serif;
   font-size: 16px;
   text-transform: uppercase;
 }
@@ -371,18 +371,18 @@ a {
   width: 400px;
 }
 .level-ul p {
-  font-family: Roboto-Bold;
+  font-family: 'Roboto-Bold','Arial', sans-serif;
   font-size: 16px;
   color: #000000;
   text-transform: uppercase;
 }
 .pst li {
-  font-family: Roboto-Bold;
+  font-family: 'Roboto-Bold','Arial', sans-serif;
   font-size: 45px;
   text-transform: uppercase;
 }
 .apriori li {
-  font-family: Roboto-Regular;
+  font-family: 'Roboto-Regular','Arial', sans-serif;
   font-size: 16px;
   color: #283136;
 }
@@ -430,18 +430,18 @@ a {
   margin-left: 150px; 
 }
 .pishitenam h3 {
-  font-family: Roboto-Bold;
+  font-family: 'Roboto-Bold','Arial', sans-serif;
   font-size: 18px;
   color: #000000;
   text-transform: uppercase; 
 }
 .pishitenam p {
-  font-family: Roboto-Regular;
+  font-family: 'Roboto-Regular','Arial', sans-serif;
   font-size: 16px;
   color: #283136;
 }
 .pishitenam a {
-  font-family: Roboto-Regular;
+  font-family: 'Roboto-Regular','Arial', sans-serif;
   font-size: 16px;
   color: #283136;
 }
@@ -456,7 +456,7 @@ a {
 .footer-social li {
   list-style-type: none;
 }
-.button-11 {
+.social {
   display: inline-block;
   width: 70px;
   height: 70px;
@@ -465,52 +465,25 @@ a {
   text-decoration: none;
   border: none;
   border-radius: 50%;
-  background-image: url("/img/vk-icon.png") no-repeat;
 }
-.button-12 {
-  display: inline-block;
-  width: 70px;
-  height: 70px;
-  background: #e1e1e1;
-  text-align: center;
-  text-decoration: none;
-  border: none;
-  border-radius: 50%;
-  background-image: url("img/fb-icon.png") no-repeat;
-
+.social-vk {
 }
-.button-13 {
-  display: inline-block;
-  width: 70px;
-  height: 70px;
-  background: #e1e1e1;
-  text-align: center;
-  text-decoration: none;
-  border: none;
-  border-radius: 50%;
-  background-image: url("/img/insta-icon.png") no-repeat;
+.social-fb {
 }
-a .social-vk {
-  
-}
-a .social-fb {
-
-}
-a .social-inst {
-
+.social-inst {
 }
 .sale {
   display: inline-block;
   margin-left: 30;
 }
 .sale h2 {
-  font-family: Roboto-Bold;
+  font-family: 'Roboto-Bold','Arial', sans-serif;
   font-size: 36px;
   color: #000000;
   text-transform: uppercase;
 }
 .sale p {
-  font-family: Roboto-Regular;
+  font-family: 'Roboto-Regular','Arial', sans-serif;
   font-size: 16px;
   color: #283136;
 }
@@ -520,7 +493,7 @@ a .social-inst {
   margin: 0 auto;
  }
  .item-container h1 {
-  font-family: Roboto-Medium;
+  font-family: 'Roboto-Medium','Arial', sans-serif;
   font-size: 55px;
   text-align: center;
   margin-top: 100px;
@@ -619,35 +592,35 @@ a .social-inst {
   margin-top: 100px;
 } */
 .sort {
-  font-family: Roboto-Bold;
+  font-family: 'Roboto-Bold','Arial', sans-serif;
   font-size: 18px;
   text-transform: uppercase;
 }
 .sorting {
-  font-family: Roboto-Regular;
+  font-family: 'Roboto-Regular','Arial', sans-serif;
   font-size: 14px;
   color: #283136;
   text-transform: uppercase;
 }
 .functions li {
   list-style-type: none;
-  font-family: Roboto-Regular;
+  font-family: 'Roboto-Regular','Arial', sans-serif;
   font-size: 16px;
   color: #283136; 
 }
 .functions-name {
-  font-family: Roboto-Bold;
+  font-family: 'Roboto-Bold','Arial', sans-serif;
   font-size: 18px;
   text-transform: uppercase;
 }
 .option-name {
-  font-family: Roboto-Bold;
+  font-family: 'Roboto-Bold','Arial', sans-serif;
   font-size: 18px;
   text-transform: uppercase;
 }
 .option li {
   list-style-type: none;
-  font-family: Roboto-Regular;
+  font-family: 'Roboto-Regular','Arial', sans-serif;
   font-size: 16px;
   color: #283136;
 }
@@ -706,7 +679,7 @@ a .social-inst {
   margin-left: 500px;
 }
 .scroll a {
-  font-family: Roboto-Medium;
+  font-family: 'Roboto-Medium','Arial', sans-serif;
   font-size: 16px;
   text-transform: uppercase;
   color: #000000;
